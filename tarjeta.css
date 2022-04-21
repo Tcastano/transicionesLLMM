@@ -1,0 +1,45 @@
+body{
+    place-content: center;
+}
+div{
+    margin: 215px 460px;
+    background-color: aqua;
+    width: 20px;
+    height: 20px;
+    
+}
+div:hover{
+    margin: 215px 460px;
+    background-color: aqua;
+    width: 20px;
+    height: 20px;
+    animation: cubo 5s linear forwards;
+    
+}
+
+
+@keyframes cubo {
+    0%{
+        
+    }
+    50%{
+        transform: scaleY(8);
+    }
+    to{
+        transform: scale(8);
+    }
+}
+
+
+@keyframes cubo2 {
+    0%{
+        
+    }
+    50%{
+        transform: scaleY(8);
+    }
+    100%{
+        transform:scale(0);
+    
+    }
+}
